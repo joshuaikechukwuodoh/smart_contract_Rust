@@ -1,6 +1,6 @@
 // pages/index.js (or app/page.js if using app directory)
 import Image from "next/image";
-import Hero from "./components/HeroSection"
+import Hero from "./components/HeroSection";
 import ServicesSection from "./components/ServicesSection";
 import WhyChooseUs from "./components/WhyChooseUs";
 import TeamSection from "./components/TeamSection";
@@ -14,14 +14,14 @@ export const metadata = {
   },
 };
 export default function LandingPage() {
-	return (
-		<div className="min-h-screen text-white">
-			<Hero />
-			<ServicesSection />
-			<WhyChooseUs />
-			<TeamSection />
-			<FAQSectoindgdj />
-			<HeroSectionBottom />
-		</div>
-	);
+  return (
+    <div className="min-h-screen text-white">
+      <Hero />
+      <ServicesSection />
+      <WhyChooseUs />
+      <TeamSection />
+      <FAQSection />
+      <HeroSectionBottom />
+    </div>
+  );
 }
